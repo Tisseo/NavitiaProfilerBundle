@@ -1,0 +1,12 @@
+parameters:
+    navitia_profiler.class: CanalTP\NavitiaProfilerBundle\DataCollector\NavitiaAdapter
+    navitia_data_collector.class: CanalTP\NavitiaProfilerBundle\DataCollector\NavitiaDataCollector
+
+services:
+    navitia_profiler:
+        class: "%navitia_profiler.class%"
+    data_collector.navitia:
+        class: "%navitia_data_collector.class%"
+        arguments: ['@navitia_profiler']
+        tags:
+            - { name: data_collector, template: "NavitiaProfilerBundle:Collector:navitia", id: "navitia"  }

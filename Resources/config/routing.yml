@@ -1,0 +1,3 @@
+navitia_profiler_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: NavitiaProfilerBundle:Default:index }
