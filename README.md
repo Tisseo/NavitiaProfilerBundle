@@ -19,6 +19,7 @@ Installation
 2. Add require "canaltp/navitia-profiler-bundle": "dev-master"
 2. Add require "canaltp/navitia": "dev-master"
 3. Add url of the repository, 'http://packagist.canaltp.fr'
+4. Add this line in your AppKernel => "new CanalTP\NavitiaProfilerBundle\NavitiaProfilerBundle()"
 5. Enable Navitia profiler by adding this line in service.yml of your app
         -> arguments: ['@navitia_profiler']
 
