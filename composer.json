@@ -1,0 +1,24 @@
+{
+    "name": "canaltp/navitia-profiler-bundle",
+    "type": "symfony-bundle",
+    "description": "Navitia Profiler Bundle",
+    "keywords": [],
+    "homepage": "http://hg.prod.canaltp.fr/ctp/SymfonyBundles/NavitiaProfilerBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rémy Abi-Khalil",
+            "email": "remy.abikhalil@canaltp.fr"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "packagist.canaltp.fr"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "CanalTP\\NavitiaProfilerBundle\\": "" }
+    },
+    "target-dir": "CanalTP/NavitiaProfilerBundle/"
+}
