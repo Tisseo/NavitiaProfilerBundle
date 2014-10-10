@@ -12,7 +12,7 @@ class NavitiaAdapter implements LoggerInterface
 
     public function __construct()
     {
-        $this->requsets = array();
+        $this->requests = array();
     }
 
     public function getRequestNumber()
