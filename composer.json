@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "Navitia Profiler Bundle",
     "keywords": [],
-    "homepage": "http://hg.prod.canaltp.fr/ctp/SymfonyBundles/NavitiaProfilerBundle",
+    "homepage": "https://github.com/CanalTP/NavitiaProfilerBundle",
     "license": "MIT",
     "authors": [
         {
