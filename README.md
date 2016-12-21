@@ -59,3 +59,8 @@ Contributing
 -------------
 
 1. Rémy Abi-Khalil - remy.abikhalil@canaltp.fr
+
+License
+-------
+
+This library is under [MIT](LICENSE.md).
