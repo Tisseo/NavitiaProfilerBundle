@@ -63,4 +63,4 @@ Contributing
 License
 -------
 
-This library is under [MIT](LICENSE.md).
+This library is under [MIT](LICENSE).
