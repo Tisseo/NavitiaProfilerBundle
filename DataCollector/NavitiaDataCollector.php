@@ -35,6 +35,11 @@ class NavitiaDataCollector extends DataCollector
         $this->data['requests'] = $this->navitiaAdapter->getRequests();
     }
 
+    public function reset()
+    {
+        $this->data = array();
+    }
+    
     public function getName()
     {
         return 'navitia';

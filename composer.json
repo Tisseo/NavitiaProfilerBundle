@@ -18,7 +18,6 @@
         }
     ],
     "autoload": {
-        "psr-0": { "CanalTP\\NavitiaProfilerBundle\\": "" }
-    },
-    "target-dir": "CanalTP/NavitiaProfilerBundle/"
+        "psr-4": { "CanalTP\\NavitiaProfilerBundle\\": "" }
+    }
 }
